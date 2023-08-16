@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+html{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+.container h1{
+    color: #175CFF;
+    font-size: 60px;
+}
+
+.container .temporizador{
+    background-color: hsla(0, 0%, 80%, 0.267);
+    padding: 3px 10px;
+    display: flex;
+    font-size: 55px;
+    font-weight: 700;
+    box-shadow: 1px 1px 5px #333;
+    border-radius: 10px;
+}
+
+.container .temporizador .tempo{
+    min-width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #172953;
+}
+
+.container .temporizador .separador{
+    padding: 0 10px;
+    color: #525763;
+}
+
+.container .temporizador #milisegundos{
+    font-size: 30px;
+    color: #525763;
+    gap: 1rem;
+}
+
+.container .botoes{
+    display: flex;
+    gap: 1rem;
+}
+
+.container  .botoes .botao{
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #CCC;
+    border-radius: 30px;
+}
+
+.container .botoes #botao-iniciar{
+    background-color: #175CFF;
+    color: white;
+}
+
+.container .botoes #botao-pausar, #botao-continuar{
+    display: none;
+}
