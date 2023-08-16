@@ -33,7 +33,7 @@ Os usuários devem ser capazes de:
 ## Links
 
 - Repositório: https://github.com/mazziera/cronometro-js
-- Deploy: 
+- Deploy: https://mazziera.github.io/cronometro-js/
 
 ## Meu Processo
 
